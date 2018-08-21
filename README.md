@@ -15,9 +15,8 @@ Mình sử dụng mô hình LSTM 2 tầng đơn giản, đặc trưng được t
 ![model](img/lstm.png)
 
 # Train
-<audio controls="controls">
-  <source type="audio/mp3" src="img/0.amr"></source>
-  <p>Your browser does not support the audio element.</p>
+<audio controls preload> 
+    <source src="img/0.amr"></source> 
 </audio>
 
 # Kết quả
