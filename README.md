@@ -15,6 +15,8 @@ Mình sử dụng mô hình LSTM 2 tầng đơn giản, đặc trưng được t
 ![model](img/lstm.png)
 
 # Train
+![](img/0.amr)
+
 
 # Kết quả
 
