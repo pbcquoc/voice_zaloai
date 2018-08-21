@@ -15,9 +15,13 @@ Mình sử dụng mô hình LSTM 2 tầng đơn giản, đặc trưng được t
 ![model](img/lstm.png)
 
 # Train
-<audio controls preload> 
-    <source src="img/0.amr"></source> 
-</audio>
-
+Các bạn cần tải tập train và test, rồi để vào folder như trong code, sau đó chạy lệnh sau để build tập train và test. Dữ liệu sẽ lưu xuống thư mục được config và dùng để train model
+```
+python make_data.py
+```
+Sau khi tạo dữ liệu xong, các bạn cần chạy lệnh sau để huấn luyện model. Mình huấn luyện model cho gender, và accent riêng. Sau khoảng 600 epochs thì acc của gender trên tập validate là 96%, còn accent là 85%. Trên public leaderboard các bạn sẽ được khoảng 67.8%, và nằm trong top 10. 
+```
+python lstm.py
+```
 # Kết quả
 
